@@ -123,6 +123,8 @@ export default function BookingModal({ isOpen, onClose, service }: BookingModalP
                   <p className="text-sm">Additional charges may apply based on service requirements</p>
                 </div>
                 <button
+                 onClick={() => alert("Booking Confirmed")}
+                
                   type="submit"
                   className="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors"
                 >
